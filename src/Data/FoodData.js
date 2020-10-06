@@ -5,8 +5,8 @@ export function formatPrice(price) {
     });
   }
   
-//   export const foodItems = [
-  export const foods = [
+  export const foodItems = [
+
     {
       name: "Cheese Pizza",
       img: "/img/pizza.png",
@@ -58,13 +58,13 @@ export function formatPrice(price) {
     }
   ];
   
-//   export const foods = foodItems.reduce((res, food) => {
-//     if (!res[food.section]) {
-//       res[food.section] = [];
-//     }
-//     res[food.section].push(food);
-//     return res;
-//   }, {});
+  export const foods = foodItems.reduce((res, food) => {
+    if (!res[food.section]) {
+      res[food.section] = [];
+    }
+    res[food.section].push(food);
+    return res;
+  }, {});
   
   //  © created by react.school
   
