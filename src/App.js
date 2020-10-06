@@ -1,6 +1,7 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 import {Navbar} from './Navbar/Navbar';
+import {Banner} from './Banner/Banner';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -19,6 +20,7 @@ function App() {
     <>
       <GlobalStyle />
       <Navbar />
+      <Banner/>
       <h1>Hello</h1>
       <div className="App">This is different font</div>
     </>
